@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.starichkov.java.spring</groupId>
+    <artifactId>spring-cloud-config-example</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>config-server</module>
+        <module>config-client</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <version.spring.boot>1.5.9.RELEASE</version.spring.boot>
+        <version.spring.cloud.config>1.4.1.RELEASE</version.spring.cloud.config>
+    </properties>
+
+</project>
