@@ -1,6 +1,13 @@
 Spring Cloud Config server and client example.
 =
 
+### Launch
+
+1. Start `ConfigServer` application using `mvn spring-boot:run` command
+1. Start `ConfigClient` application using `mvn spring-boot:run` command
+1. Go to `http://localhost:8080/whoami/{username}` replacing `{username}` placeholder with any string value
+1. You will see welcome message with passed `{username}` and user role, loaded right from `ConfigService`
+
 ### Tutorials used
 
 * [Using Spring Boot without the parent POM](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html#using-boot-maven-without-a-parent)

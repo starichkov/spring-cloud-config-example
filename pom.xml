@@ -16,8 +16,9 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <version.spring.boot>1.5.9.RELEASE</version.spring.boot>
+        <version.spring.boot>1.5.13.RELEASE</version.spring.boot>
         <version.spring.cloud.config>1.4.1.RELEASE</version.spring.cloud.config>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 </project>
